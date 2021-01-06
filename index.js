@@ -3,7 +3,7 @@ const fs = require('fs')
 const indexPage = fs.readFileSync('index.html')
 const aboutPage = fs.readFileSync('about.html')
 const contactPage = fs.readFileSync('contact-me.html')
-const notFoundPage = fs.readFileSync('notFound.html')
+const notFoundPage = fs.readFileSync('404.html')
 
 // index, about, contact-me and 404.
 const server = http.createServer((req, res) => {
